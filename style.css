@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+    color:#fff;
+}
+
+.btn {
+    position: absolute;
+    top: 49%;
+    left: 49%;
+}
+
+button:hover {
+    color: #fff;
+}
+
+button {
+    color: teal;
+    transition: 0.25s;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+
+.first_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 30%;
+    background-color: #01BCA5;
+}
+
+.second_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 25.1%;
+    width: 25%;
+    height: 30%;
+    background-color: #01B69F;
+}
+
+.third_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50.2%;
+    width: 25%;
+    height: 30%;
+    background-color: #01A792;
+}
+
+.fourth_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 75.3%;
+    width: 25%;
+    height: 30%;
+    background-color: #029482;
+}
+
+.fifth_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 25%;
+    height: 30%;
+    background-color: #018172;
+}
+
+.sixth_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 25.1%;
+    width: 25%;
+    height: 30%;
+    background-color: #017063;
+}
+
+.seventh_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 50.2%;
+    width: 25%;
+    height: 30%;
+    background-color: #036156;
+}
+
+.eighth_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 75.3%;
+    width: 25%;
+    height: 30%;
+    background-color: #005349;  
+}
+
+.hideall {
+    transform: scale(0);
+}

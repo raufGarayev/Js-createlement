@@ -56,7 +56,6 @@ function addboxes(e) {
 
         for (let index = 0; index < getDivs.length; index++) {
             getDivs[index].parentNode.removeChild(getDivs[index])
-            console.log(getDivs)
             clicks = 0
         }
     }

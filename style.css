@@ -118,7 +118,3 @@ button {
     height: 30%;
     background-color: #005349;  
 }
-
-.hideall {
-    transform: scale(0);
-}

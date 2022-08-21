@@ -1,5 +1,6 @@
 const myBtn = document.querySelector('button')
 const myBody = document.querySelector('body')
+const audio = new Audio("gameover.wav");
 
 let clicks = 0
 myBtn.addEventListener('click', addboxes)
@@ -52,6 +53,7 @@ function addboxes(e) {
     }
     else if(clicks == 9)
     {
+        audio.play();
         const getDivs = document.querySelectorAll('div:not(.btn)')
 
         for (let index = 0; index < getDivs.length; index++) {
